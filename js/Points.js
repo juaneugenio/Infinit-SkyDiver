@@ -8,7 +8,7 @@ class Point {
   draw() {
     // circle(this.x - 100, this.y - 150, this.radius);
     //this.y -= 5;
-    this.setRandomPosition();
+    this.setRandomPosition(); //revisar
     image(coinPoint, this.x, this.y, this.width, this.height);
   }
 
